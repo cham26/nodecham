@@ -1,8 +1,8 @@
 footer {
-  padding: 2em;
+	padding: 2em;
   color: white;
   background-color: #001F3F;
-  position: relative;
-  height: 50px;
+  height: 60px;
   bottom: 0;
+  width: 100%;
 }
