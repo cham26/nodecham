@@ -57,9 +57,10 @@
 html, body {
   width : 100%;
   background-color: #dedede;
-  margin-bottom: 60px;
+  height: auto;
   position:relative; 
-  min-height: 100%;
+
+  
 }
 
 section {
