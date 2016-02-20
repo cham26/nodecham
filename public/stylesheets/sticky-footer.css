@@ -1,17 +1,8 @@
 footer {
-<<<<<<< HEAD
-  padding: 2em;
-  color: white;
-  background-color: #001F3F;
-  position: absolute;
-  height: 50px;
-  bottom: 0;
-=======
 	padding: 2em;
   color: white;
   background-color: #001F3F;
   height: 60px;
   bottom: 0;
   width: 100%;
->>>>>>> development
 }
