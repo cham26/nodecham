@@ -59,7 +59,7 @@ html, body {
   background-color: #dedede;
   height: auto;
   position:relative; 
-
+  
   
 }
 
@@ -82,6 +82,56 @@ section > div {
 .block5 {  min-height : 14em}
 .block6 {  min-height : 15em}
 .block7 {  min-height : 13em; width: 100%}
+
+/*navbar*/
+
+.navigation ul {
+  background: #D3D3D3;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+}
+
+.navigation h6 {
+  color: #000000;
+  margin-right: auto;
+}
+
+.navigation li:first-child {
+  margin-right: auto;
+}
+
+.navigation li:nth-child(6) {
+  margin-right: 70px;
+}
+
+.navigation a {
+  color:  #333;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 0em 1em 0em 1em;
+}
+
+.navigation a:hover {
+  background: #7FFFD4;
+}
+
+@media all and (max-width: 300px) {
+  .navigation ul {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+}
 
 
 
@@ -114,3 +164,12 @@ section > div {
       	font-size: 3em;
       	text-align: center;
       }
+
+footer {
+  padding: 2em;
+  color: white;
+  background-color: #001F3F;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+}
